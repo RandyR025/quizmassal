@@ -1,0 +1,34 @@
+.logobpr {
+    width: 150px;
+    margin-left: 20px;
+}
+.logoanaknegeri {
+    width: 40px;
+    margin-right: 20px;
+}
+
+@media (min-width: 1000px) {
+    .logobpr {
+        width: 200px;
+        margin-left: 100px;
+    }
+    .logoanaknegeri {
+        width: 50px;
+        margin-right: 100px;
+    }
+    .videoplayer {
+        width: 50% !important;
+    }
+    
+}
+.videoplayer {
+    width: 80%;
+}
+.html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden !important; /* Menghilangkan scroll jika ada */
+}

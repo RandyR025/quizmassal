@@ -1,0 +1,83 @@
+.tombol {
+    background-color: blue;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+    font-family: "Lobster", cursive;
+}
+.tombol:hover {
+    transform: scale(1.1);
+    background-color: #191970;
+}
+.paneltombol {
+    background-color: #dcdcdc;
+}
+.atas {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.bawah {
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.6);
+}
+.bprtext {
+    font-family: "Anton", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+.videoplayer {
+    display: none;
+    width: 100% !important;
+    height: 100% !important;
+}
+.videoplayer.active {
+    display: block;
+    margin: auto;
+}
+.videobg {
+    background-color: black;
+    width: 100% !important;
+}
+.video{
+    object-fit: cover;
+}
+.containerr {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+@media (min-width: 1000px) {
+    .logobpr {
+        width: 200px;
+        margin-left: 100px;
+    }
+    .logoanaknegeri {
+        width: 50px;
+        margin-right: 100px;
+    }
+    .tombol {
+        background-color: blue;
+        width: 500px !important;
+        padding: 30px !important;
+        margin: 50px !important;
+        border-radius: 50px 50px 50px 50px;
+        font-size: 50px !important;
+        transition: transform 0.3s ease-in-out;
+        font-family: "Lobster", cursive;
+    }
+    .videoplayer {
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .bprtext {
+        font-family: "Anton", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        /* position: absolute; */
+        /* left: 0px; */
+    }
+}
